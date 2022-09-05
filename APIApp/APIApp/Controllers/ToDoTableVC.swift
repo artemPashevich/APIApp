@@ -10,7 +10,8 @@ import UIKit
 class ToDoTableVC: UITableViewController {
     
     var todos: [Todo] = []
-
+    var user: User?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          self.clearsSelectionOnViewWillAppear = false
@@ -19,8 +20,7 @@ class ToDoTableVC: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return todos.count
+        todos.count
     }
 
     
@@ -70,8 +70,10 @@ class ToDoTableVC: UITableViewController {
     
     
     func getTodo() {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/todos") else { return }
         
+        guard let userID = user?.id else { return }
+        let pathUrl = "\(ApiConstants.todosPath)?userId=\(userID)"
+        guard let url = URL(string: pathUrl) else { return }
         URLSession.shared.dataTask(with: url) { data, _, _ in
             guard let data = data else { return }
             do {
