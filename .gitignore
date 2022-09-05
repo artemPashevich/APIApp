@@ -88,3 +88,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+APIApp/APIApp/View/Base.lproj/Main.storyboard
+APIApp/APIApp.xcodeproj/project.pbxproj
+APIApp/APIApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+APIApp/APIApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+APIApp/APIApp/Assets.xcassets/AccentColor.colorset/Contents.json
+APIApp/APIApp/Assets.xcassets/AppIcon.appiconset/Contents.json
+APIApp/APIApp/Assets.xcassets/Contents.json
+APIApp/APIApp/Delegate/AppDelegate.swift
+APIApp/APIApp/Delegate/SceneDelegate.swift
+APIApp/APIApp/View/Base.lproj/LaunchScreen.storyboard
