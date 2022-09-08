@@ -19,4 +19,10 @@ class ApiConstants {
     
     static let todosPath = serverPath + "todos"
     
+    static let usersPath = serverPath + "users"
+    
+    static let albumsPath = serverPath + "albums"
+    
+    static let photosPath = serverPath + "photos"
+    
 }

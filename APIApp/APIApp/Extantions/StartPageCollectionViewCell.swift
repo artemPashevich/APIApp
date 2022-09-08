@@ -8,9 +8,5 @@
 import UIKit
 
 class StartPageCollectionViewCell: UICollectionViewCell {
-    
-    
     @IBOutlet weak var labelStrart: UILabel!
-    
-    
 }
