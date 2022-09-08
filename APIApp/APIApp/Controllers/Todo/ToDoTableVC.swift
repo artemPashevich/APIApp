@@ -12,6 +12,8 @@ class ToDoTableVC: UITableViewController {
     var todos: [Todo] = []
     var user: User?
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          self.clearsSelectionOnViewWillAppear = false
@@ -25,10 +27,10 @@ class ToDoTableVC: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellToDo", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellToDo", for: indexPath) as! TodoTVCell
 
-        cell.textLabel?.text = todos[indexPath.row].title
-        cell.detailTextLabel?.text = String(todos[indexPath.row].completed)
+        cell.titleLbl.text = todos[indexPath.row].title
+        cell.bodybl.text = String(todos[indexPath.row].completed)
         return cell
     }
     
