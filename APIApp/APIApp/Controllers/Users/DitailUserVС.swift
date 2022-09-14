@@ -30,6 +30,12 @@ class DitailUserV_: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func mapAcrtion() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MapVC") as! MapVC
+        vc.user = user
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
     @IBAction func todoAcrtion() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

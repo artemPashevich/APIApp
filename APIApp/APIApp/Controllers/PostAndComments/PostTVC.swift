@@ -16,9 +16,11 @@ class PostTVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.clearsSelectionOnViewWillAppear = false
-        getPost()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        getPost()
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         posts.count
@@ -33,6 +35,18 @@ class PostTVC: UITableViewController {
         return cell
     }
 
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete, let id = posts[indexPath.row]["id"].int {
+            NetworkService.deletePost(postID: id) { [weak self] json, error in
+                if json != nil {
+                    self?.posts.remove(at: indexPath.row)
+                    tableView.deleteRows(at: [indexPath], with: .automatic)
+                } else if let error = error {
+                    print(error)
+                }
+            }
+        }
+    }
 
     func getPost() {
         
@@ -47,7 +61,14 @@ class PostTVC: UITableViewController {
         }
     }
 
-
+    
+    @IBAction func addNewPost(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "AddCommentVC") as! AddCommentVC
+        vc.user = user
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
