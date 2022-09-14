@@ -88,3 +88,111 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+APIApp/APIApp/View/Base.lproj/Main.storyboard
+APIApp/APIApp.xcodeproj/project.pbxproj
+APIApp/APIApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+APIApp/APIApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+APIApp/APIApp/Assets.xcassets/AccentColor.colorset/Contents.json
+APIApp/APIApp/Assets.xcassets/AppIcon.appiconset/Contents.json
+APIApp/APIApp/Assets.xcassets/Contents.json
+APIApp/APIApp/Delegate/AppDelegate.swift
+APIApp/APIApp/Delegate/SceneDelegate.swift
+APIApp/APIApp/View/Base.lproj/LaunchScreen.storyboard
+APIApp/APIApp/Assets.xcassets/default-placeholder.imageset/default-placeholder.png
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.release.xcconfig
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.debug.xcconfig
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch
+APIApp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+APIApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp.release.xcconfig
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp.modulemap
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp.debug.xcconfig
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-umbrella.h
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-frameworks.sh
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-Info.plist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-frameworks-Release-output-files.xcfilelist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-frameworks-Release-input-files.xcfilelist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-acknowledgements.plist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-frameworks-Debug-input-files.xcfilelist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-frameworks-Debug-output-files.xcfilelist
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-dummy.m
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage-Info.plist
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage-prefix.pch
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage.debug.xcconfig
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage.modulemap
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage.release.xcconfig
+APIApp/Pods/Target Support Files/Pods-APIApp/Pods-APIApp-acknowledgements.markdown
+APIApp/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+APIApp/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+APIApp/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+APIApp/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+APIApp/Pods/Target Support Files/AlamofireImage/AlamofireImage-dummy.m
+APIApp/APIApp.xcworkspace/contents.xcworkspacedata
+APIApp/APIApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+APIApp/APIApp/Assets.xcassets/default-placeholder.imageset/Contents.json
+APIApp/APIApp/Assets.xcassets/gradient-background-using-different-colors_606954-2.imageset/Contents.json
+APIApp/APIApp/Assets.xcassets/gradient-background-using-different-colors_606954-2.imageset/gradient-background-using-different-colors_606954-2.jpg
+APIApp/APIApp/Assets.xcassets/images.imageset/Contents.json
+APIApp/APIApp/Assets.xcassets/images.imageset/images.jpeg
+APIApp/APIApp/Info 2.plist
+APIApp/Podfile.lock
+APIApp/Pods/Alamofire/LICENSE
+APIApp/Pods/Alamofire/README.md
+APIApp/Pods/Alamofire/Source/AFError.swift
+APIApp/Pods/Alamofire/Source/Alamofire.swift
+APIApp/Pods/Alamofire/Source/AlamofireExtended.swift
+APIApp/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+APIApp/Pods/Alamofire/Source/CachedResponseHandler.swift
+APIApp/Pods/Alamofire/Source/Combine.swift
+APIApp/Pods/Alamofire/Source/Concurrency.swift
+APIApp/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+APIApp/Pods/Alamofire/Source/EventMonitor.swift
+APIApp/Pods/Alamofire/Source/HTTPHeaders.swift
+APIApp/Pods/Alamofire/Source/HTTPMethod.swift
+APIApp/Pods/Alamofire/Source/MultipartFormData.swift
+APIApp/Pods/Alamofire/Source/MultipartUpload.swift
+APIApp/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+APIApp/Pods/Alamofire/Source/Notifications.swift
+APIApp/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+APIApp/Pods/Alamofire/Source/ParameterEncoder.swift
+APIApp/Pods/Alamofire/Source/ParameterEncoding.swift
+APIApp/Pods/Alamofire/Source/Protected.swift
+APIApp/Pods/Alamofire/Source/RedirectHandler.swift
+APIApp/Pods/Alamofire/Source/Request.swift
+APIApp/Pods/Alamofire/Source/RequestInterceptor.swift
+APIApp/Pods/Alamofire/Source/RequestTaskMap.swift
+APIApp/Pods/Alamofire/Source/ResponseSerialization.swift
+APIApp/Pods/Alamofire/Source/Response.swift
+APIApp/Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+APIApp/Pods/Alamofire/Source/Result+Alamofire.swift
+APIApp/Pods/Alamofire/Source/RetryPolicy.swift
+APIApp/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+APIApp/Pods/Alamofire/Source/Session.swift
+APIApp/Pods/Alamofire/Source/SessionDelegate.swift
+APIApp/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+APIApp/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+APIApp/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+APIApp/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+APIApp/Pods/Alamofire/Source/Validation.swift
+APIApp/Pods/AlamofireImage/LICENSE
+APIApp/Pods/AlamofireImage/README.md
+APIApp/Pods/AlamofireImage/Source/AFIError.swift
+APIApp/Pods/AlamofireImage/Source/ImageCache.swift
+APIApp/Pods/AlamofireImage/Source/Image.swift
+APIApp/Pods/AlamofireImage/Source/ImageDownloader.swift
+APIApp/Pods/AlamofireImage/Source/ImageFilter.swift
+APIApp/Pods/SwiftyJSON/README.md
+APIApp/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+APIApp/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+APIApp/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift
+APIApp/Pods/SwiftyJSON/LICENSE
+APIApp/Pods/Pods.xcodeproj/project.pbxproj
+APIApp/Pods/Manifest.lock
+APIApp/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift
+APIApp/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift
+APIApp/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift
+APIApp/Pods/AlamofireImage/Source/Request+AlamofireImage.swift
